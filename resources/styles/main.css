@@ -1,0 +1,37 @@
+html{
+	font-family: 'Roboto', sans-serif;
+}
+
+.centreFucker{
+	position: absolute; top:0; bottom: 0; left: 0; right: 0; margin: auto;
+}
+
+.fillBackground1{
+		animation: colorchanger1 2s;
+		animation-fill-mode: forwards;
+}
+
+@keyframes colorchanger1 {
+	from {top: 0px; background-color: #FFFFFF;}
+	to {top: 0px; background-color: #EF6C00;}
+  }
+
+.fillBackground2{
+	animation: colorchanger2 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes colorchanger2 {
+from {top: 0px; background-color: #EF6C00;}
+to {top: 0px; background-color: #0000FF;}
+}
+
+.fillBackground3{
+	animation: colorchanger3 2s;
+	animation-fill-mode: forwards;
+}
+
+@keyframes colorchanger3 {
+from {top: 0px; background-color: #0000FF;}
+to {top: 0px; background-color: #FFFFFF;}
+}
